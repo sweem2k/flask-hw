@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap 
+metadata:
+  name: flask-hw-md-config
+data:
+  app-url: flask-hw-md-service
+  
